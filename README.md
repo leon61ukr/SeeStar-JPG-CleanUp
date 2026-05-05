@@ -1,10 +1,9 @@
 # 🔭 SeeStar Cleanup Script
-A lightweight PowerShell utility for cleaning up **SeeStar** working folders by removing unnecessary temporary and preview JPG files generated during imaging sessions.
+## A lightweight PowerShell utility for cleaning up **SeeStar** working folders by removing unnecessary temporary and preview JPG files generated during imaging sessions.
 It helps reclaim storage space while keeping your important imaging data untouched.
 In real-world testing, the script reclaimed approximately **16–17%** of used storage, removing about **1.24 GB** of unnecessary files from a **7.38 GB** SeeStar dataset.
 ---
 ## ✨ What it removes
-
 ### 📂 Inside `*_sub` folders
 Removes:
 - All `.jpg` files
@@ -19,7 +18,6 @@ This safely removes generated preview thumbnails and auxiliary JPG files without
 - Other project data
 ---
 ## 🚀 Features
-
 ### 🔍 Automatic folder scanning
 Scans all folders in the current directory automatically.
 No manual browsing required.
@@ -50,7 +48,7 @@ Each processed folder reports:
 If the script is executed **directly on a SeeStar telescope connected via USB**, specifically from the device’s **`MyWorks`** folder, deleted files may be removed **immediately and permanently**.
 This happens because external device storage may not support Windows Recycle Bin operations.
 ---
-## ✅ Recommended workflow
+### ✅ Recommended workflow
 1. Copy your imaging folders from the telescope to your PC
 2. Run the cleanup script locally
 3. Verify results
