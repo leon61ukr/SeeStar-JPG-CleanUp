@@ -65,7 +65,7 @@ If the script is executed **directly on a SeeStar telescope connected via USB**,
 This happens because external device storage may not support Windows Recycle Bin operations.
 
 ---
-##✅ Recommended workflow
+## ✅ Recommended workflow
 1. Copy your imaging folders from the telescope to your PC
 2. Run the cleanup script locally
 3. Verify results
